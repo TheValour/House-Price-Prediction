@@ -74,19 +74,6 @@ Follow these steps to set up the project environment:
 Below is data distrubtion
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -187,6 +174,7 @@ The final model achieved the following performance:
 
 These metrics indicate the accuracy of the model in predicting house prices.
 
+*[Streamlit app link](https://gharkikimat.streamlit.app/)*
 
 > by TheValour 🤖
 
