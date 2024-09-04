@@ -4,8 +4,8 @@ import streamlit as st;
 import pickle as pk;
 
 def modelPredict(input_data):
-    model = pk.load(open("../model/model.pkl", "rb"))
-    scaler = pk.load(open("../model/scaler.pkl", "rb"))
+    model = pk.load(open("model/model.pkl", "rb"))
+    scaler = pk.load(open("model/scaler.pkl", "rb"))
 
     inputArray = np.array(input_data).reshape(1, -1)
 
